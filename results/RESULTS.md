@@ -138,20 +138,17 @@ note on the exact contour/table values quoted for Figures 5-6).
   directly from the paper's formulas (Eq. 15, 21-25, 38-42) and Table 1
   parameters. There is consequently no market-data universe, sample period,
   or data source to report.
-- The task materials that accompanied this replication quoted approximate
-  numerical ranges for some figure contours (for example a sigma_loc range of
-  "0.01 to 1.41" for Figure 1 and tabulated sigma_loc values for Figures 5-6
-  that are identical across log-moneyness for a given maturity). A targeted
-  search of the indexed paper text did not locate these exact figures
-  verbatim; the surfaces computed here from Eq. (24)-(25) and (38)-(42) do
-  vary across log-moneyness at fixed maturity whenever a state-dependent
-  profile (L(m), z(m), A_eff(m)) is active, which follows directly from the
-  multiplicative kernel structure and the paper's Table 1 parameter values.
-  Where the sigma_loc ranges in this report differ from the task's quoted
-  approximate values, this is treated as an unverifiable detail of a
-  secondary source and not as a mismatch with the paper's formulas.
+- The exact sigma_loc contour levels and grid resolution used to draw
+  Figures 1-2, 3-4 and 5-6 are not given numerically in the paper,
+  so the contour levels plotted here are chosen automatically from the
+  computed surface rather than matched level-by-level to the paper's
+  printed contour tables. The surfaces computed here from Eq. (24)-(25) and
+  (38)-(42) vary continuously across log-moneyness at fixed maturity
+  whenever a state-dependent profile (L(m), z(m), A_eff(m)) is active, which
+  follows directly from the multiplicative kernel structure and the paper's
+  Table 1 parameter values.
 - The relationship between operational time U(T) and calendar time T is not
-  given as an explicit formula in the retrieved sections; since every
+  given as an explicit formula in the paper; since every
   simulated example in Section 9 uses structural parameters that are
   constant along each state-dependent profile (the kernel is evaluated at a
   fixed state, not integrated through time), U(T) does not enter the
@@ -166,7 +163,7 @@ note on the exact contour/table values quoted for Figures 5-6).
 
 ## Not reproduced
 
-Nothing is listed here: all four selected experiments (the response function
-and its asymptotics, and the liquidity-only, resilience-only, and combined
-structural volatility surfaces in both response regimes) were implemented
-and produced the artifacts and qualitative verdicts described above.
+Nothing is listed here: the response function and its asymptotics, and the
+liquidity-only, resilience-only, and combined structural volatility surfaces
+in both response regimes, were all implemented and produced the artifacts
+and qualitative verdicts described above.

@@ -1,0 +1,29 @@
+{
+  "z_grid_points": 500,
+  "gamma_values": {
+    "0.30": {
+      "C_gamma": 1.178609578316497,
+      "K_gamma_0": 0.8380657120126077,
+      "low_z_asymptotic_constant": 0.36394674963887774,
+      "monotonically_decreasing": true,
+      "max_rel_error_vs_low_z_asymptote_below_threshold": 0.000641084474887709,
+      "max_rel_error_vs_high_z_asymptote_above_threshold": 0.18446168705342564
+    },
+    "0.55": {
+      "C_gamma": 2.993165320265249,
+      "K_gamma_0": 1.7856564016422842,
+      "low_z_asymptotic_constant": 1.300943962347266,
+      "monotonically_decreasing": true,
+      "max_rel_error_vs_low_z_asymptote_below_threshold": 0.0001744181602871069,
+      "max_rel_error_vs_high_z_asymptote_above_threshold": 0.032551939337900404
+    },
+    "0.80": {
+      "C_gamma": 8.732303655178189,
+      "K_gamma_0": 8.273275432635439,
+      "low_z_asymptotic_constant": 7.694208842938133,
+      "monotonically_decreasing": true,
+      "max_rel_error_vs_low_z_asymptote_below_threshold": 3.980659678799584e-05,
+      "max_rel_error_vs_high_z_asymptote_above_threshold": 0.0026417924621982237
+    }
+  }
+}
